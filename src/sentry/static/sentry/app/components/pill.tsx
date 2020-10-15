@@ -72,6 +72,8 @@ const PillName = styled('span')`
   padding: ${space(0.5)} ${space(1)};
   min-width: 0;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
 `;
 
 type PillValueProps = {
